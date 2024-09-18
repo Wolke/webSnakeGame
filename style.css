@@ -44,3 +44,35 @@ body {
         height: 400px;
     }
 }
+
+/* 其他樣式保持不變 */
+
+#game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#control-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#left-right-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+#control-panel button {
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+    margin: 5px;
+}
+
+#score, #start-button, #toggle-ai-button {
+    margin: 10px;
+}
